@@ -1,13 +1,18 @@
 import {
   frontend,
   backend,
-  ux,
+  ux,ml,
   prototyping,
   javascript,
   typescript,
   html,
   css,
+  java,
   reactjs,
+  redis,
+  mysql,
+  spring,
+  firebase,
   redux,
   tailwind,
   nodejs,
@@ -17,7 +22,7 @@ import {
   postgresql,
   rubyrails,
   graphql,
-  komikult,
+  ial,
   leaderboard,
   math,
   movie,
@@ -26,7 +31,15 @@ import {
   coverhunt,
   dcc,
   kelhel,
+  snioe,
+  brane,
+  photoshooto,
+  xanadu,
   microverse,
+  eclaim,
+  farmart,
+  snuarc,
+  lighthouse,
 } from '../assets';
 
 export const navLinks = [
@@ -46,20 +59,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Frontend Development',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Backend Development',
     icon: backend,
   },
   {
     title: 'UI/UX Design',
     icon: ux,
   },
+  // {
+  //   title: 'Software Prototyping',
+  //   icon: prototyping,
+  // },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: 'Machine Learning',
+    icon: ml,
   },
 ];
 
@@ -73,6 +90,22 @@ const technologies = [
     icon: css,
   },
   {
+    name: 'Redis',
+    icon: redis,
+  },
+  {
+    name: 'My SQL',
+    icon: mysql,
+  },
+  {
+    name: 'Java',
+    icon: java,
+  },
+  {
+    name: 'Firebase',
+    icon: firebase,
+  },
+  {
     name: 'JavaScript',
     icon: javascript,
   },
@@ -84,22 +117,22 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
+  // {
+  //   name: 'Tailwind CSS',
+  //   icon: tailwind,
+  // },
   {
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
   {
     name: 'graphql',
     icon: graphql,
@@ -125,39 +158,40 @@ const technologies = [
 const experiences = [
   {
     title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    company_name: 'Photoshooto',
+    icon: photoshooto,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Sep 2021 - Nov 2021',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Front-End Developer',
+    company_name: 'Xanadu',
+    icon: xanadu,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Jun 2022 - Aug 2022',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Teaching Assistant',
+    company_name: 'SNIoE',
+    icon: snioe,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Aug 2022 - May 2023',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'Software Development Engineer -1',
+    company_name: 'Brane',
+    icon: brane,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Jan 2023 - Aug 2024',
   },
+  
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'I Am Listening',
+    description: 'A platform providing personalized mental health support through expert connections',
     tags: [
       {
         name: 'react',
@@ -172,15 +206,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: ial,
+    repo: 'https://www.figma.com/proto/jyvky00M8o6m7O0fOd5XFD/Expert-Claims%2C-IAL?node-id=742-6400&node-type=canvas&t=CkkftVR5WJTcoTTi-0&scaling=scale-down&content-scaling=fixed&page-id=742%3A2960&starting-point-node-id=742%3A6400',
+    demo: 'https://www.figma.com/proto/jyvky00M8o6m7O0fOd5XFD/Expert-Claims%2C-IAL?node-id=742-6400&node-type=canvas&t=CkkftVR5WJTcoTTi-0&scaling=scale-down&content-scaling=fixed&page-id=742%3A2960&starting-point-node-id=742%3A6400',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Farmart',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Directly connects farmers with consumers, eliminating middlemen for efficiency.',
     tags: [
       {
         name: 'react',
@@ -195,14 +229,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: farmart,
+    repo: 'https://github.com/Charugundlavipul/Farmart',
+    demo: 'https://github.com/Charugundlavipul/Farmart',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'SNU ARC',
+    description: 'A centralized booking solution for all university needs.',
     tags: [
       {
         name: 'nextjs',
@@ -217,14 +251,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: snuarc,
+    repo: 'https://github.com/Charugundlavipul/SNU_ARC',
+    demo: 'https://github.com/Charugundlavipul/SNU_ARC',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Lighthouse',
+    description: `A centralized booking solution for all university needs.`,
     tags: [
       {
         name: 'nextjs',
@@ -239,15 +273,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: lighthouse,
+    repo: 'https://www.figma.com/proto/wMCukzYHDr8bgN5rw5WEVG/Lighthouse?node-id=2-8&node-type=canvas&t=tXJkYNiAXODfcbk4-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A8',
+    demo: 'https://www.figma.com/proto/wMCukzYHDr8bgN5rw5WEVG/Lighthouse?node-id=2-8&node-type=canvas&t=tXJkYNiAXODfcbk4-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A8',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Expert Claims',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Connects users with experts for resolving insurance claim disputes effectively.',
     tags: [
       {
         name: 'nextjs',
@@ -262,9 +296,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: eclaim,
+    repo: 'https://www.figma.com/proto/jyvky00M8o6m7O0fOd5XFD/Expert-Claims%2C-IAL?node-id=4-356',
+    demo: 'https://www.figma.com/proto/jyvky00M8o6m7O0fOd5XFD/Expert-Claims%2C-IAL?node-id=4-356',
   },
 ];
 

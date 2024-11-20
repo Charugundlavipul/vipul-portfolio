@@ -42,12 +42,11 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Vipul
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+            Designing Digital Experiences That Captivate and Inspire
             </p>
           </div>
           <div
@@ -80,7 +79,7 @@ const Hero = () => {
           </a>
         </div>
 
-        {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
+        {/* Your image comes here. Feel free to remove image if you don't plan to have one.
         <div>
           <img
             className="absolute bottom-0 ml-[50vw] 
@@ -89,7 +88,7 @@ const Hero = () => {
             src={shaq}
             alt="shaquille"
           />
-        </div>
+        </div> */}
       </section>
     </>
   );
