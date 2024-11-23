@@ -258,7 +258,7 @@ const projects = [
   {
     id: 'project-4',
     name: 'Lighthouse',
-    description: `A centralized booking solution for all university needs.`,
+    description: `AI-driven tool for matching user needs with appropriate insurance policies.`,
     tags: [
       {
         name: 'nextjs',
