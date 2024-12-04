@@ -100,12 +100,14 @@ const Experience = () => {
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
-              onClick={() =>
-                window.open(
-                  'https://drive.google.com/file/d/1wFDT9R7YpA7jxVhK3Hs4Ubed-Lp-Kp79/view', //paste the link to your resume here
-                  '_blank'
-                )
-              }
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "/assets/Vipul_Resume.pdf"; // Path to your resume file in the public/assets folder
+                link.download = "Vipul_Resume.pdf"; // Optional: Specify the downloaded file name
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
               onMouseOver={() => {
                 document
                   .querySelector('.download-btn')
