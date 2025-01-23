@@ -81,6 +81,35 @@ const services = [
 ];
 
 const technologies = [
+  
+  {
+    name: 'React JS',
+    icon: reactjs,
+  },
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
+  // {
+  //   name: 'Tailwind CSS',
+  //   icon: tailwind,
+  // },
+  {
+    name: 'Node JS',
+    icon: nodejs,
+  },
+  {
+    name: 'graphql',
+    icon: graphql,
+  },
+  {
+    name: 'postgresql',
+    icon: postgresql,
+  },
+  {
+    name: 'git',
+    icon: git,
+  },
   {
     name: 'HTML 5',
     icon: html,
@@ -112,34 +141,6 @@ const technologies = [
   {
     name: 'TypeScript',
     icon: typescript,
-  },
-  {
-    name: 'React JS',
-    icon: reactjs,
-  },
-  // {
-  //   name: 'Redux Toolkit',
-  //   icon: redux,
-  // },
-  // {
-  //   name: 'Tailwind CSS',
-  //   icon: tailwind,
-  // },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
-    name: 'git',
-    icon: git,
   },
   {
     name: 'figma',
