@@ -30,6 +30,8 @@ const styles = {
     'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
   sectionSubTextLight:
     'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
+  sectionSubTextLightLessBold:
+    'sm:text-[16px] text-[16px] text-taupe uppercase tracking-wider font-medium font-poppins',
 };
 
 export { styles };
