@@ -82,10 +82,7 @@ const services = [
 
 const technologies = [
   
-  {
-    name: 'React JS',
-    icon: reactjs,
-  },
+
   // {
   //   name: 'Redux Toolkit',
   //   icon: redux,
@@ -95,28 +92,16 @@ const technologies = [
   //   icon: tailwind,
   // },
   {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
     name: 'HTML 5',
     icon: html,
   },
   {
     name: 'CSS 3',
     icon: css,
+  },
+  {
+    name: 'React JS',
+    icon: reactjs,
   },
   {
     name: 'Redis',
@@ -143,6 +128,23 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: 'Node JS',
+    icon: nodejs,
+  },
+  {
+    name: 'graphql',
+    icon: graphql,
+  },
+  {
+    name: 'postgresql',
+    icon: postgresql,
+  },
+  {
+    name: 'git',
+    icon: git,
+  },
+ 
+  {
     name: 'figma',
     icon: figma,
   },
@@ -150,6 +152,53 @@ const technologies = [
     name: 'docker',
     icon: docker,
   },
+];
+
+const technologiesshort = [
+  
+
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
+  // {
+  //   name: 'Tailwind CSS',
+  //   icon: tailwind,
+  // },
+ 
+  {
+    name: 'React JS',
+    icon: reactjs,
+  },
+  {
+    name: 'TypeScript',
+    icon: typescript,
+  },
+  {
+    name: 'Node JS',
+    icon: nodejs,
+  },
+  {
+    name: 'My SQL',
+    icon: mysql,
+  },
+  {
+    name: 'Java',
+    icon: java,
+  },
+  {
+    name: 'Firebase',
+    icon: firebase,
+  },
+  {
+    name: 'postgresql',
+    icon: postgresql,
+  },
+  {
+    name: 'figma',
+    icon: figma,
+  },
+ 
 ];
 
 const experiences = [
@@ -299,4 +348,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects,technologiesshort };
