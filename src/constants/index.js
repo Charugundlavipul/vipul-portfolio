@@ -81,33 +81,41 @@ const services = [
 ];
 
 const technologies = [
+  // {
+  //   name: 'HTML 5',
+  //   icon: html,
+  // },
+  // {
+  //   name: 'CSS 3',
+  //   icon: css,
+  // },
+  // {
+  //   name: 'Redis',
+  //   icon: redis,
+  // },
+  // {
+  //   name: 'My SQL',
+  //   icon: mysql,
+  // },
+  // {
+  //   name: 'Java',
+  //   icon: java,
+  // },
+  // {
+  //   name: 'Firebase',
+  //   icon: firebase,
+  // },
+  // {
+  //   name: 'JavaScript',
+  //   icon: javascript,
+  // },
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'TypeScript',
+    icon: typescript,
   },
   {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
-    name: 'Redis',
-    icon: redis,
-  },
-  {
-    name: 'My SQL',
-    icon: mysql,
-  },
-  {
-    name: 'Java',
-    icon: java,
-  },
-  {
-    name: 'Firebase',
-    icon: firebase,
-  },
-  {
-    name: 'JavaScript',
-    icon: javascript,
+    name: 'React JS',
+    icon: reactjs,
   },
   {
     name: 'TypeScript',
@@ -129,6 +137,10 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
+  {
+     name: 'Firebase',
+      icon: firebase,
+     },
   // {
   //   name: 'Rails',
   //   icon: rubyrails,
