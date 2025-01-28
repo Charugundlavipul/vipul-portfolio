@@ -48,4 +48,4 @@ const MediumArticles = () => {
 const stripHtmlTags = (str) => {
     return str.replace(/<\/?[^>]+(>|$)/g, "");
   };
-export default SectionWrapper(MediumArticles, 'mediumArticles');
+export default SectionWrapper(MediumArticles, 'articles');
