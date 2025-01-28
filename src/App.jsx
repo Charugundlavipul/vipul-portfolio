@@ -7,7 +7,9 @@ import {
   Navbar,
   Tech,
   Projects,
+  
 } from './components';
+import MediumArticles from './components/Medium';
 
 const App = () => {
   return (
@@ -37,6 +39,7 @@ const App = () => {
             <Experience />
           </div>
         </div>
+        <MediumArticles />
         <div className="relative z-0">
           <Contact />
         </div>
