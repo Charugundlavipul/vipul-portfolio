@@ -30,6 +30,9 @@ const MediumArticles = () => {
               {/* <img src={article.thumbnail} alt={article.title} className="w-full h-48 object-cover" /> */}
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-black">{article.title}</h3>
+                <p className="text-gray-700 mb-4">
+                {stripHtmlTags(article.description).split(' ').slice(0, 18).join(' ')}...
+                </p>
                 <a href={article.link} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:underline">
                   Read more
                 </a>
@@ -42,4 +45,7 @@ const MediumArticles = () => {
   );
 };
 
+const stripHtmlTags = (str) => {
+    return str.replace(/<\/?[^>]+(>|$)/g, "");
+  };
 export default SectionWrapper(MediumArticles, 'mediumArticles');
