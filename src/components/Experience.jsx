@@ -3,13 +3,13 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import { motion } from 'framer-motion';
+import PropTypes from 'prop-types';
 import 'react-vertical-timeline-component/style.min.css';
 import { styles } from '../styles';
 import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
-
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{
@@ -51,12 +51,22 @@ const ExperienceCard = ({ experience }) => (
   </VerticalTimelineElement>
 );
 
+ExperienceCard.propTypes = {
+  experience: PropTypes.shape({
+    date: PropTypes.string,
+    icon: PropTypes.string,
+    iconBg: PropTypes.string,
+    title: PropTypes.string,
+    company_name: PropTypes.string,
+  }).isRequired,
+};
+
 const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} sm:pl-16 pl-[2rem]`}>
-          What I've done so far
+          What I&apos;ve done so far
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
           Work Experience.

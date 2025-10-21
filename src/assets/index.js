@@ -33,11 +33,13 @@ import spring from './tech/spring.png';
 import firebase from './tech/firebase.png';
 import java from './tech/java.png';
 import git from './tech/git.png';
+
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
+import python from './tech/python.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
@@ -48,6 +50,7 @@ import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import xanadu from './company/xanadu.png';
+import pil from './company/pil.png';
 import brane from './company/brane.png';
 import snioe from './company/snioe.png';
 import photoshooto from './company/photoshooto.png';
@@ -71,6 +74,7 @@ export {
   photoshooto,
   xanadu,
   eclaim,
+  python,
   farmart,
   snuarc,
   lighthouse,
@@ -121,6 +125,7 @@ export {
   movie,
   nyeusi,
   space,
+  pil,
   coverhunt,
   dcc,
   kelhel,
